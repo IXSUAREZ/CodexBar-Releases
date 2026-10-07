@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>CodexBar</title>
+        <item>
+            <title>0.73.1</title>
+            <pubDate>Wed, 07 Oct 2026 19:11:46 -0400</pubDate>
+            <sparkle:version>168</sparkle:version>
+            <sparkle:shortVersionString>0.73.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p>- Update the customized app to the 0.73.0 stable source while retaining the Control Center, usage statistics, and run-out forecast.</p>
+<p>- Remove the warning-colored chart frame after pointer selection; retain keyboard focus and accessible navigation.</p>
+<p>- Avoid optimized timer crashes during menu-bar refreshes and while opening Settings.</p>
+<p>- Add signed personal-fork updates from GitHub, with Check for Updates in About and the Control Center actions.</p>
+<p>- Preserve account-scoped usage, source accounting, and accurate 30-day widget totals.</p>
+<p>- Dim stale quota colors consistently while keeping high-contrast readouts fully visible.</p>
+<p>- Retain Pi&#x27;s 30-day totals after empty refreshes and identify partial widget history as a lower bound.</p>
+<p>This personal fork is ad-hoc code signed and is not Apple notarized. Sparkle verifies its signed updates.</p>
+]]></description>
+            <enclosure url="https://github.com/IXSUAREZ/CodexBar-Releases/releases/download/v0.73.1/CodexBar-macos-arm64-0.73.1.zip" length="41024708" type="application/octet-stream" sparkle:edSignature="K2dkobj0WqwaWdCec/CCFtdC0dczGpSvbOnc99ffmJkHIR7lFrdRKUtaSUPA8426wcqmoGrFUtfFiIk+xP6iBw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: Sz3EaKrxakAgjHVJRLE87SMImpknZ6V9Qkgcmg42a3XSSI9IzzLi179vRXNUTAJahdR2bSnyrSmhvoHNIbRDCg==
+length: 2093
+-->
