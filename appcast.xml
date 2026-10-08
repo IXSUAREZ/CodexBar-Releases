@@ -1,8 +1,23 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>CodexBar</title>
+        <item>
+            <title>0.73.2</title>
+            <pubDate>Wed, 07 Oct 2026 20:33:40 -0400</pubDate>
+            <sparkle:version>169</sparkle:version>
+            <sparkle:shortVersionString>0.73.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p>- Restore available Codex cost and token history while the updated local cache rebuilds in the background.</p>
+<p>- Mark incomplete live and cached history as partial so Today, Last 30 days, and Last 90 days display the indexed data without claiming complete coverage.</p>
+<p>This personal fork is ad-hoc code signed and is not Apple notarized. Sparkle verifies its signed updates.</p>
+]]></description>
+            <enclosure url="https://github.com/IXSUAREZ/CodexBar-Releases/releases/download/v0.73.2/CodexBar-macos-arm64-0.73.2.zip" length="41025064" type="application/octet-stream" sparkle:edSignature="dppw1DQea8arhXf7u417K8WsINI2vU8oxjX8GZJAZcqtCeBcl++BBwjCjVtvPKzDOCgQPE3zPPvumXOJ0Ic3BQ=="/>
+        </item>
         <item>
             <title>0.73.1</title>
             <pubDate>Wed, 07 Oct 2026 19:11:46 -0400</pubDate>
@@ -19,10 +34,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 <p>- Retain Pi&#x27;s 30-day totals after empty refreshes and identify partial widget history as a lower bound.</p>
 <p>This personal fork is ad-hoc code signed and is not Apple notarized. Sparkle verifies its signed updates.</p>
 ]]></description>
-            <enclosure url="https://github.com/IXSUAREZ/CodexBar-Releases/releases/download/v0.73.1/CodexBar-macos-arm64-0.73.1.zip" length="41024708" type="application/octet-stream" sparkle:edSignature="K2dkobj0WqwaWdCec/CCFtdC0dczGpSvbOnc99ffmJkHIR7lFrdRKUtaSUPA8426wcqmoGrFUtfFiIk+xP6iBw=="></enclosure>
+            <enclosure url="https://github.com/IXSUAREZ/CodexBar-Releases/releases/download/v0.73.1/CodexBar-macos-arm64-0.73.1.zip" length="41024708" type="application/octet-stream" sparkle:edSignature="K2dkobj0WqwaWdCec/CCFtdC0dczGpSvbOnc99ffmJkHIR7lFrdRKUtaSUPA8426wcqmoGrFUtfFiIk+xP6iBw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: Sz3EaKrxakAgjHVJRLE87SMImpknZ6V9Qkgcmg42a3XSSI9IzzLi179vRXNUTAJahdR2bSnyrSmhvoHNIbRDCg==
-length: 2093
+</rss>
+<!-- sparkle-signatures:
+edSignature: nuwIrFtIEz561ZesdQ5ZOvx9vSbeIZH8pJ0CjaYjckeZ+NRv4ovrAfpyeTJLSubJuCU8KgtDDvAz2AyEligZCQ==
+length: 3234
 -->
