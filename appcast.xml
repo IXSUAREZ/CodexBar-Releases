@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>CodexBar</title>
         <item>
+            <title>0.73.3</title>
+            <pubDate>Wed, 07 Oct 2026 23:52:23 -0400</pubDate>
+            <sparkle:version>170</sparkle:version>
+            <sparkle:shortVersionString>0.73.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p>- Finish local cost-history rebuilds with bounded scans and practical background recovery intervals so large sessions no longer leave totals incomplete for hours.</p>
+<p>- Preserve faster history indexing across routine refreshes until the scan finishes or the user slows it down.</p>
+<p>This personal fork is ad-hoc code signed and is not Apple notarized. Sparkle verifies its signed updates.</p>
+]]></description>
+            <enclosure url="https://github.com/IXSUAREZ/CodexBar-Releases/releases/download/v0.73.3/CodexBar-macos-arm64-0.73.3.zip" length="41025456" type="application/octet-stream" sparkle:edSignature="Ym/jmpdR/FTJfMtTj6LmdIG4KGVd8/gbYPObnBDbLL/kiL40LoP3NiSMkBZQKLiTZMGtmw1s9DtnBziLNus6Cw=="/>
+        </item>
+        <item>
             <title>0.73.2</title>
             <pubDate>Wed, 07 Oct 2026 20:33:40 -0400</pubDate>
             <sparkle:version>169</sparkle:version>
@@ -39,6 +52,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: nuwIrFtIEz561ZesdQ5ZOvx9vSbeIZH8pJ0CjaYjckeZ+NRv4ovrAfpyeTJLSubJuCU8KgtDDvAz2AyEligZCQ==
-length: 3234
+edSignature: iZGDgd4V6dKljI6u8y8jPy2NDuUhnuBxOZnTPVZaJ6bD3L7jd6kE2XefXHawwiFY0HfP0K/yCPx+mN89ekRjBA==
+length: 4395
 -->
